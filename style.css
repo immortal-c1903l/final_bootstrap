@@ -1,4 +1,131 @@
 *{margin: 0; padding: 0;}
-body * {
+body  {
     border: 1px solid red;
+}
+
+/********* Phan galary **********/
+
+#galary {
+    background-color: #f8f9f9;
+}
+
+
+
+#galary .col-lg-auto {
+    width: 20%;
+    overflow: hidden;
+
+}
+
+#galary img {
+    padding: 1px;
+    width: 350px;
+    height: 240px;
+    transform: translate(-15px, 0);
+    transition: all 0.8s;
+    display: block;
+    vertical-align: middle;
+    position: center;
+    overflow: hidden;
+}
+
+#galary .row .items .text-xs-center {
+    width: 100%;
+}
+
+#galary img:hover,
+#galary img:active {
+    transform: scale(1.5);
+}
+
+
+/********* Phan galary **********/
+
+#funFacts {
+    background-color: #fff;
+}
+
+.jumbotron {
+    background-color: #fff;
+}
+
+.fact-title {
+    color: #777;
+}
+.fact-group {
+    padding: 0 20%;
+}
+
+.fact-number {
+    font-size: 3.125rem;
+    font-weight: 800;
+    color: #03c4eb;
+    line-height: 1;
+    font-family: serif,sans-serif;
+}
+
+.fact-text {
+    font-size: 1.125rem;
+    color: #777;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/********* Phan team **********/
+
+#team {
+    background-color: #f8f9f9;
+}
+
+#team .items {
+    padding: 0 20%;
+}
+
+
+.member-card {
+    overflow: hidden;
+    padding: 1px;
+}
+
+.member-card img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.member-name, .member-position {
+    text-align: center;
+}
+
+.member-name {
+    letter-spacing: 2px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+}
+
+.member-card img:hover {
+    opacity: 0.6;
+}
+
+.member-name::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    bottom: -11px;
+    width: 30%;
+    height: 1px;
+    background: #ccc;
+}
+
+.member-position {
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: #777;
 }
