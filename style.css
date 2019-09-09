@@ -33,3 +33,31 @@ html,body {
     transition: background-color .5s ease 0s;
     font-family: "Raleway",Helvetica,Arial,sans-serif;
 }
+.container-padding{
+    padding: 70px 0;
+}
+.container-meta{
+    width: 100%;
+    background-color: #f8f9f9;
+}
+.text-xs-center{
+    text-align: center;
+}
+.subtitle{
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #aaa;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.title {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 800;
+}
