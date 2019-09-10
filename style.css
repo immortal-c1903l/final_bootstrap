@@ -1,21 +1,31 @@
+/*--------------------*/
+/*------PAGE SET UP--------*/
+/*--------------------*/
+
 *{margin: 0; padding: 0;}
-/*body * {
-    border: 1px solid red;
-}*/
 
 html,body {
+    overflow: hidden;
     width: 100%;
     height: 100%;
 }
+
+/*--------------------*/
+/*------BACKGROUND--------*/
+/*--------------------*/
 
 .header {
     width: 100%;
     height: 100%;
-/*    background: url("images/1.jpg");*/
+}
+
+.home-inner {
     background-size: cover ;
     animation: slide 10s infinite;
 }
-
+/*-----------------------------*/
+/*------NAVIGATION BAR---------*/
+/*----------------------------*/
 .navbar-brand img {
     margin-left: 100px;
 }
@@ -45,11 +55,54 @@ html,body {
     }
     50%{
         background-image: url("images/1.jpg");
+        filter:brightness(95%);
     }
     50.01%{
         background-image: url("images/2.jpg");
     }
     100%{
         background-image: url("images/2.jpg");
+        filter:brightness(95%);
     }
+}
+
+/*---------------------*/
+/*------CAPTION--------*/
+/*---------------------*/
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+}
+.caption h1 {
+    color: white;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .2rem .3rem darkgray;
+    padding-bottom: 1rem;
+}
+
+.caption h4 {
+    color: white;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    padding-bottom: 2rem;
+}
+
+.btn-md {
+    border-width: medium;
+    border-radius: 0;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block!important;
 }
