@@ -43,6 +43,10 @@ html,body {
 .text-xs-center{
     text-align: center;
 }
+.title-section{
+    margin-bottom: 60px;
+    text-align: center;
+}
 .subtitle{
     font-family: "Raleway",Helvetica,Arial,sans-serif;
     font-size: 14px;
@@ -60,4 +64,27 @@ html,body {
     text-transform: uppercase;
     position: relative;
     font-weight: 800;
+}
+.features-item{
+    text-align: center;
+
+    visibility: visible;
+}
+.features-icon{
+    color: #fff;
+}
+.features-media{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.icon-background-default {
+    color: #03c4eb;
+}
+.features-media :before :after{
+    box-sizing: inherit;
+}
+.features-media ::selection{
+    background: #000;
+    color: #FFF;
 }
